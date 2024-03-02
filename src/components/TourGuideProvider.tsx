@@ -158,7 +158,7 @@ export const TourGuideProvider = ({
             return newStep
           })
           resolve()
-        }, 100);
+        }, 500);
       }
       else {
         updateCurrentStep((currentStep) => {
